@@ -71,8 +71,7 @@ function App() {
           </div>
           <p className="info-note">
             Encontrou algo? Entregue à administração do campus para facilitar
-            a devolução. Se precisar falar com o responsável, {" "}
-            <a href="https://wa.me/5582900000000" target="_blank" rel="noopener noreferrer">
+            a devolução. Se precisar falar com o responsável, <a href="https://wa.me/5582900000000" target="_blank" rel="noopener noreferrer">
               entre em contato pelo WhatsApp
             </a>.
           </p>
