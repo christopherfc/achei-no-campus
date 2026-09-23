@@ -8,8 +8,6 @@ html {
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #1f2937;
   background: #f4f7fa;
 }
 
@@ -35,9 +33,12 @@ body {
 }
 
 .header-container > .header-content > a {
-  color: #0d3b66;
-  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  line-height: 26px;
   font-weight: bold;
+  letter-spacing: normal;
+  color: #0d3b66;
   text-decoration: none;
 }
 
@@ -48,9 +49,13 @@ body {
 }
 
 .header-container > .header-content > nav > a {
-  color: inherit;
-  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
   font-weight: bold;
+  letter-spacing: normal;
+  color: #1f2937;
+  text-decoration: none;
 }
 
 .header-container > .header-content > nav > .button-link {
@@ -74,7 +79,6 @@ body {
   overflow: hidden;
   border-radius: 14px;
   background: #0d3b66;
-  color: white;
 }
 
 .apresentacao-section > div {
@@ -85,11 +89,21 @@ body {
 
 .apresentacao-section > div > h1 {
   margin: 0 0 15px;
-  font-size: 2.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: bold;
+  letter-spacing: normal;
+  color: #ffffff;
 }
 
 .apresentacao-section > div > .presentation-text {
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  letter-spacing: normal;
   color: #dbe9f5;
 }
 
@@ -100,13 +114,14 @@ body {
   object-fit: cover;
 }
 
-.apresentacao-section > div > p:first-child,
-.comoFunciona-section > div > p:first-child {
+.apresentacao-section > div > .presentation-label {
   margin: 0 0 5px;
-  color: #2aa6a4;
-  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
   font-weight: bold;
   letter-spacing: 1px;
+  color: #2aa6a4;
 }
 
 .objetos-section {
@@ -115,6 +130,11 @@ body {
 
 .objetos-section > h2 {
   margin: 0 0 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: normal;
   color: #0d3b66;
 }
 
@@ -123,9 +143,12 @@ body {
   margin-bottom: 15px;
   border-radius: 20px;
   background: #dff4f3;
-  color: #127876;
-  font-size: 0.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
   font-weight: bold;
+  letter-spacing: normal;
+  color: #127876;
   padding: 6px 10px;
 }
 
@@ -156,11 +179,60 @@ body {
 
 .objetos-section > .card-list > .card > .card-content > h3 {
   margin: 0 0 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: bold;
+  letter-spacing: normal;
   color: #0d3b66;
 }
 
 .objetos-section > .card-list > .card > .card-content > p {
   margin: 0 0 7px;
+}
+
+.objetos-section > .card-list > .card > .card-content > .card-description {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  letter-spacing: normal;
+  color: #5e6b78;
+}
+
+.objetos-section > .card-list > .card > .card-content > .card-location {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  letter-spacing: normal;
+  color: #5e6b78;
+}
+
+.objetos-section > .card-list > .card > .card-content > .card-location > strong {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  letter-spacing: normal;
+  color: #5e6b78;
+}
+
+.objetos-section > .card-list > .card > .card-content > .card-date {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  letter-spacing: normal;
+  color: #5e6b78;
+}
+
+.objetos-section > .card-list > .card > .card-content > .card-date > strong {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  letter-spacing: normal;
   color: #5e6b78;
 }
 
@@ -173,8 +245,12 @@ body {
   padding: 10px 14px;
   border-radius: 6px;
   background: #0d3b66;
-  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
   font-weight: bold;
+  letter-spacing: normal;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -199,22 +275,51 @@ body {
   padding: 20px;
   border-radius: 8px;
   background: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  letter-spacing: normal;
+  color: #1f2937;
 }
 
 .comoFunciona-section > .info-note > a {
-  color: #0d3b66;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
   font-weight: bold;
-}
-
-.comoFunciona-section > div > h2,
-.sobreNos-section > h2,
-.mapa-section > h2 {
-  margin: 0 0 20px;
+  letter-spacing: normal;
   color: #0d3b66;
 }
 
-.comoFunciona-section > div > p:last-child {
+.comoFunciona-section > div > .info-label {
+  margin: 0 0 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #2aa6a4;
+}
+
+.comoFunciona-section > div > h2 {
+  margin: 0 0 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: normal;
+  color: #0d3b66;
+}
+
+.comoFunciona-section > div > .info-text {
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  letter-spacing: normal;
+  color: #1f2937;
 }
 
 .sobreNos-section {
@@ -225,17 +330,56 @@ body {
   background: white;
 }
 
-.sobreNos-section > p {
-  max-width: 650px;
-  margin: 0 0 16px;
+.sobreNos-section > h2 {
+  margin: 0 0 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: normal;
+  color: #0d3b66;
 }
 
-.sobreNos-section > p:last-child {
-  margin-bottom: 0;
+.sobreNos-section > .about-problem {
+  max-width: 650px;
+  margin: 0 0 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  letter-spacing: normal;
+  color: #1f2937;
+}
+
+.sobreNos-section > .about-proposal {
+  max-width: 650px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  letter-spacing: normal;
+  color: #1f2937;
+}
+
+.mapa-section > h2 {
+  margin: 0 0 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: normal;
+  color: #0d3b66;
 }
 
 .mapa-section > p {
   margin: 0 0 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  letter-spacing: normal;
+  color: #1f2937;
 }
 
 .mapa-section > iframe {
@@ -249,12 +393,17 @@ body {
 .footer-container {
   padding: 25px;
   background: #0d3b66;
-  color: white;
   text-align: center;
 }
 
 .footer-container > p {
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  letter-spacing: normal;
+  color: #ffffff;
 }
 
 @media (max-width: 800px) {
@@ -296,7 +445,8 @@ body {
   }
 
   .header-container > .header-content > nav > a {
-    font-size: 0.9rem;
+    font-size: 14px;
+    line-height: 20px;
   }
 
   .header-container > .header-content > nav > .button-link {
@@ -304,7 +454,8 @@ body {
   }
 
   .apresentacao-section > div > h1 {
-    font-size: 2rem;
+    font-size: 32px;
+    line-height: 38px;
   }
 
   .objetos-section > .card-list {

@@ -10,7 +10,7 @@ function App() {
       <main className="main-container">
         <section className="apresentacao-section">
           <div>
-            <p>ACHADOS E PERDIDOS</p>
+            <p className="presentation-label">ACHADOS E PERDIDOS</p>
             <h1>Encontre objetos perdidos no campus</h1>
             <p className="presentation-text">
               Consulte os objetos encontrados e saiba onde procurar o seu.
@@ -63,9 +63,9 @@ function App() {
 
         <section className="comoFunciona-section" id="como-funciona">
           <div>
-            <p>COMO FUNCIONA</p>
+            <p className="info-label">COMO FUNCIONA</p>
             <h2>Perdeu ou encontrou um objeto?</h2>
-            <p>
+            <p className="info-text">
               Procure o objeto na lista e pergunte no local indicado.
             </p>
           </div>
@@ -80,14 +80,14 @@ function App() {
 
         <section className="sobreNos-section" id="sobre">
           <h2>Sobre nós</h2>
-          <p>
+          <p className="about-problem">
             Somos estudantes da disciplina de Programação Web I e criamos o
             Achei no Campus a partir de uma situação comum na universidade:
             perder um objeto e não saber onde procurar. Muitas vezes, os avisos
             ficam espalhados em grupos de mensagens ou dependem de alguém que
             encontrou o item conhecer seu dono.
           </p>
-          <p>
+          <p className="about-proposal">
             Nossa proposta é reunir, em um só lugar, informações como a
             descrição do objeto, a data e o local onde ele foi encontrado.
             Assim, quem perdeu algo pode conferir os avisos e saber por onde
