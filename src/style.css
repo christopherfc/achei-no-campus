@@ -83,7 +83,6 @@ body {
 
 .apresentacao-section > div {
   width: 100%;
-  min-width: 0;
   padding: 45px;
 }
 
@@ -109,7 +108,6 @@ body {
 
 .apresentacao-section > img {
   width: 100%;
-  min-width: 0;
   height: 300px;
   object-fit: cover;
 }
@@ -268,7 +266,6 @@ body {
 .comoFunciona-section > .info-note {
   margin: 0;
   width: 100%;
-  min-width: 0;
 }
 
 .comoFunciona-section > .info-note {
